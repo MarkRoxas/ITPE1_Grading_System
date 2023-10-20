@@ -14,19 +14,22 @@ import { LayoutModule } from './layout/layout.module';
 import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RegistrationComponent } from './registration/registration.component';
+import { RegistrationModule } from './registration/registration.module';
+import { CardComponent } from './components/card/card.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent,
   ],
   imports: [
     CommonModule,
     BrowserModule,
     AppRoutingModule,
-    LoginModule,
-    LayoutModule,
     NgbModule,
+    RegistrationModule,
+    LayoutModule,
+    LoginModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

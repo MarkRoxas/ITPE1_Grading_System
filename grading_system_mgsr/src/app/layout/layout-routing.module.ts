@@ -9,7 +9,7 @@ const routes : Routes = [
     component: LayoutComponent,
     children:[
     {
-      path:"", redirectTo:"manage/students", pathMatch:"prefix",
+      path:"", redirectTo:"manage/dashboard", pathMatch:"prefix",
       
     },
     {
@@ -23,7 +23,7 @@ const routes : Routes = [
     {
       path: "manage/dashboard",
       loadChildren:()=>import('./dashboard/dashboard.module').then(mod=>mod.DashboardModule)
-    }   
+    },   
   ]
   }
 ];

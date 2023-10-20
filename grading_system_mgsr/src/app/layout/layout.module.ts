@@ -8,6 +8,7 @@ import { TeachersComponent } from './teachers/teachers.component';
 import { TopnavComponent } from '../components/topnav/topnav.component';
 import { SidenavComponent } from '../components/sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ButtonComponent } from '../components/button/button.component';
 
 
 
@@ -17,11 +18,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     LayoutComponent,
     TopnavComponent,
     SidenavComponent,
-    DashboardComponent,
   ],
   imports: [
     CommonModule,
-    LayoutRoutingModule
+    LayoutRoutingModule,
   ]
 })
 export class LayoutModule { }
