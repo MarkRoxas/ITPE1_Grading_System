@@ -9,6 +9,7 @@ import { TopnavComponent } from '../components/topnav/topnav.component';
 import { SidenavComponent } from '../components/sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ButtonComponent } from '../components/button/button.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -22,6 +23,7 @@ import { ButtonComponent } from '../components/button/button.component';
   imports: [
     CommonModule,
     LayoutRoutingModule,
+    ComponentsModule
   ]
 })
 export class LayoutModule { }

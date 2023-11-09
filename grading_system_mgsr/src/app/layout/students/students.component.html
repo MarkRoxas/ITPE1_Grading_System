@@ -1,1 +1,5 @@
-<p>students works!</p>
+<app-card *ngFor="let item of cardData"
+    title="{{item.title}}"
+    content="{{item.content}}"
+    value="{{item.value}}"
+></app-card>
